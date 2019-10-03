@@ -13,10 +13,10 @@ that clearly describes:
 
 # Tests
 * I created files TestEverything and Collections.
-TestEverything was used to both measure speed and test the implementations of all 3  designs for correctness of the outputs.
+TestEverything was used to both measure speed and test the implementations of all 3  designs for correctness of the outputs. I compared outputs of the reference design (0) to all the other designs to make sure the outputs are correct. There appeared slight defferences caused by rounding errors, but they are negligeable.
 
 * Sample:
-```javas
+```java
 PointCP('C'): 
 Design 0 (max: 8718.227ns, median: 32.821ns, min: 14.222ns)
 Design 2 (max: 7301.474ns, median: 125.63ns, min: 69.288ns)
